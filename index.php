@@ -95,9 +95,9 @@
                        
                         $usuariosEmail = $conn->query("SELECT * FROM usuario WHERE email='$email'");
                     
-                        // if ($usuariosEmail->num_rows > 0) {
-                        //     die("Ya existe un usuarios con ese email");
-                        // }
+                        if ($usuariosEmail->num_rows > 0) {
+                            die("Ya existe un usuarios con ese email");
+                        }
 
 
                         $sql = "INSERT INTO usuario (NOMBRE, APELLIDO1, APELLIDO2, USUARIO, EMAIL, CLAVE)
