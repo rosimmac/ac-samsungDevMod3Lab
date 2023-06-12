@@ -109,7 +109,7 @@
                         if ($conn->query($sql) === TRUE) {
                             echo "Registrado con éxito";
                         } else {
-                            echo "Error de inserción sql" ;
+                            echo "Error: ". $sql . "<br>" . $conn->error;
                         }
 
                         $conn->close();
