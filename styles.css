@@ -1,0 +1,104 @@
+
+body{
+    height: 100vh;
+    margin:0;
+    background-color: #242933;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    padding-bottom: 0px !important;
+}
+
+.container{
+    background-color: #2F3644;
+    height: 95vh;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.containerList{
+    background-color: #2F3644;
+   padding: 50px;
+    border-radius: 10px;
+}
+
+.header th{
+        background-color: gray;
+    }
+
+
+h1{
+    color: #B1BFE8;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    margin-top: 0%;
+}
+
+.formulario{
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+label{
+    color:#78819F;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+}
+
+input{
+    font-size: 90;
+    text-indent: 5px;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 4px;
+    height: 35px;
+    padding: 0;
+    
+}
+
+.sqlMessage{
+    font-size: smaller;
+    color: white;
+}
+
+
+
+.green{
+    border-style: solid;
+    border-color:  #4ECA64;
+    background: url(images/success-icon.svg) no-repeat scroll 98% 50%;
+    background-color: #fff;
+}
+
+.red{
+    border-style: solid;
+    border-color:  #DB5A5A;
+    background: url(images/error-icon.svg) no-repeat scroll 98% 50%;
+    background-color: #fff;
+}
+
+button{
+    width: 100%;
+    border-radius: 4px;
+    height: 35px;
+    background: #6C63FF;
+    color: #fff;
+    font-weight: bold;
+    padding:0;
+}
+
+p{
+    margin-top: 1px;
+    position:fixed;
+    color:#DB5A5A;
+    font-weight: bold;
+    font-size: x-small;
+    font-family: 'Roboto', sans-serif;
+}
