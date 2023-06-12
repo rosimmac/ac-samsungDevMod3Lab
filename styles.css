@@ -64,7 +64,7 @@ input{
 }
 
 .sqlMessage{
-    font-size: smaller;
+    font-size: x-small;
     color: white;
 }
 
@@ -86,6 +86,7 @@ input{
 
 button{
     width: 100%;
+    margin-top: 10px;
     border-radius: 4px;
     height: 35px;
     background: #6C63FF;
@@ -95,8 +96,7 @@ button{
 }
 
 p{
-    margin-top: 1px;
-    position:fixed;
+    position:absolute;
     color:#DB5A5A;
     font-weight: bold;
     font-size: x-small;
